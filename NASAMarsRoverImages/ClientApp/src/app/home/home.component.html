@@ -1,0 +1,4 @@
+<p *ngIf="photos.length == 0">Fetching data...</p>
+<ng-container *ngFor="let photo of photos">
+  <img src="{{photo}}" /><br/><br />
+</ng-container>
