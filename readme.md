@@ -79,3 +79,8 @@ April 31, 2018
 // To follow
 
 ### Program Workflow
+
+1. Once started, the program will fetch the ```dates.txt``` and validates the values and convert each of them into valid date format.
+2. The program will pass the dates one by one to the NASA API then selects a specific photo.
+3. The photos will be saved in ```NASAMarsRoverImages\wwwroot\nasa_imgs``` folder.
+4. The page will render the photos saved.
